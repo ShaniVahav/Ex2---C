@@ -1,7 +1,7 @@
 #include "my_mat.h"
 #include <stdio.h>
 
-void main(){
+int main(){
     
     int mat[10][10]; 
     char userChar ; 
@@ -30,6 +30,7 @@ void main(){
                 printf("%d\n", ans) ;  
              }
         }
-        
     }
+    
+    return 0;
 }
